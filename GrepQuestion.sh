@@ -1,1 +1,1 @@
-grep -e ‘^[[:lower:][:space:]*$’ -e ‘^[[:upper:][:space:]*S’ file | grep -v -e ‘^$’
+grep -e ‘^[[:lower:][:space:]*$’ -e ‘^[[:upper:][:space:]*$’ file | grep -v -e ‘^$’
